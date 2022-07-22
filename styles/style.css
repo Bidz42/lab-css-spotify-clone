@@ -1,8 +1,126 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    font-family:'Raleway'; 
+}
+header img {
+    height: 70px;
+}
+nav a {
+    text-decoration: none;
+    margin-left:20px ;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #1A1A1A;   
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+}
 
-*/
+#firstSection {
+    font-size:50px;
+    font-weight:500px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    position: relative;
+}
+#firstSection > h6 {
+    font-weight: lighter;
+    padding: 0 260px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+
+
+
+#secondSection {
+    color: #1A1A1A;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#secondSection > div >h3 {
+    border-bottom: 5.5px solid #00B172;
+}
+.container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 100px 100px 0;
+}
+.container img {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    width: 30%;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center; 
+    color: #1DB954;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+span {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+#thirdSection {
+    margin: 0 50px;
+    background-color: #00B172;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 125%;
+}
+.icon-white {
+    width: 120px;
+}
+.spotify-app {
+    width: 400px;
+}
+.thirdSectionText {
+    width: 380px;
+    padding-left: 60px;
+}
+.thirdSectionText h3 {
+    width: 520px;
+    padding-top: 60px;
+    border-bottom: 5.5px solid white;
+}
+.thirdSectionText h5 {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
